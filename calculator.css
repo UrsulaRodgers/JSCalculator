@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+.body {
+	background-color:#ffff99;
+	font-family:Electrolize, open sans;
+}
+@media (min-width: 250px){
+	#calculator {
+	background-color:white;
+	height:375px;
+	width:250px;
+	padding-top:30px;
+	border-radius:20px;
+ 	margin:8% auto auto auto;
+  	background-color:#A8A8AB;
+  	box-shadow: 7px 10px 5px 1px #656567, inset -1px -6px 12px 0.1px #89847e;
+  	position:relative;
+  	top:-10px;
+}
+#display {
+	background-color:#DCDED8;
+	height:65px;
+	width:83%;
+	margin:0 auto;
+	border-radius:3px;
+	border:2px solid #B3B4B1;
+	padding-right:3px;
+}
+
+#entry {
+	float:right;
+	font-size:2.8em;
+}
+
+#steps {
+	float:right;
+	position:relative;
+	top:43px;
+	left:25px;
+}
+
+.calcButtons {
+	width:82%;
+	display:flex;
+	justify-content:space-between;
+	margin-top:5px;
+	margin-left:22px;
+	position:relative;
+	top:10px;
+}
+
+#fourthRow{
+	width:60.5%;
+	
+}
+button {
+	width:45px;
+	height:45px;
+}
+
+#equals {
+	width:45px;
+	height:93px;
+	position:relative;
+	top:-48px;
+}
+}
+@media (min-width: 336px){
+#calculator {
+	background-color:white;
+	height:450px;
+	width:300px;
+	padding-top:30px;
+	border-radius:20px;
+ 	margin:8% auto auto auto;
+  	background-color:#A8A8AB;
+  	box-shadow: 7px 10px 5px 1px #656567, inset -1px -6px 12px 0.1px #89847e;
+  	position:relative;
+  	top:-20px;
+}
+
+#display {
+	background-color:#DCDED8;
+	height:70px;
+	width:83%;
+	margin:0 auto;
+	border-radius:3px;
+	border:2px solid #B3B4B1;
+	padding-right:3px;
+}
+
+#entry {
+	float:right;
+	font-size:2.8em;
+}
+
+#steps {
+	float:right;
+	position:relative;
+	top:43px;
+	left:25px;
+}
+
+.calcButtons {
+	width:83%;
+	display:flex;
+	justify-content:space-between;
+	margin-top:10px;
+	margin-left:26px;
+	position:relative;
+	top:10px;
+}
+
+#fourthRow{
+	width:61%;
+	
+}
+button {
+	width:50px;
+	height:50px;
+}
+
+#equals {
+	width:50px;
+	height:110px;
+	position:relative;
+	top:-60px;
+}
+}
